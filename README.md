@@ -1,8 +1,5 @@
-###Tutorial: Sequelize CRUD 101
+install postgresql
 
-This repo is the companion to [this here blog post](http://lorenstewart.me/2016/10/03/sequelize-crud-101/).
-
-To get started:
- 1. make sure you're using Node 6
- 2. `npm install`
- 3. `npm run dev`.
+npm install --save sequelize
+npm install --save pg pg-hstore body-parser morgan sequelize-cli
+npm run dev
