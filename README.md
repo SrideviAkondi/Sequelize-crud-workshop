@@ -8,14 +8,14 @@ A workshop on basic CRUD operations using Sequelize- ORM tool for NodeJs and it 
 1.  NodeJS
 Download from this link: https://nodejs.org/en/download/ (Links to an external site.)Links to an external site.
 
-Note: Please make sure you download the LTS version.
+ Note: Please make sure you download the LTS version.
 
 2.  PostgreSQL
 You can download PostgreSQL from this link: https://www.postgresql.org/download/ (Links to an external site.)Links to an external site.
 
-In case you have any issues, please follow this tutorial for installation:
+     In case you have any issues, please follow this tutorial for installation:
 
-http://www.postgresqltutorial.com/install-postgresql/ (Links to an external site.)Links to an external site.
+     http://www.postgresqltutorial.com/install-postgresql/ (Links to an external site.)Links to an external site.
 
 3. Postman- API Testing Tool
 
