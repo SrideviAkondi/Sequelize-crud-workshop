@@ -21,3 +21,17 @@ http://www.postgresqltutorial.com/install-postgresql/ (Links to an external site
 https://www.getpostman.com/ (Links to an external site.)Links to an external site.
 
  
+## Getting Started
+
+Open pgAdmin4 and connect to the database server at port number 5432. Later create a database that has been mentioned in the env.js file located in the config of the server folder.
+
+## List of commands after installing npm and postgreSQL
+
+#### npm install --save sequelize
+
+#### npm install --save pg pg-hstore body-parser express morgan sequelize-cli nodemon
+
+#### npm run dev
+
+## Sample JSON Data
+
