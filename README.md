@@ -35,3 +35,58 @@ Open pgAdmin4 and connect to the database server at port number 5432. Later crea
 
 ## Sample JSON Data
 
+#### To insert an owner 
+
+Json Input: 
+[{
+	"name": "Carol",
+	"role": "admin"
+},
+{
+	"name": "Adam",
+	"role": "user"
+}]
+
+#### To update an owner with owner_id
+
+Json Input: 
+
+{
+  "updates": {
+    "name": "Loren Stewart",
+    "role": "user"
+  }
+}
+
+#### To get an owner using owner_id
+
+Pass the owner_id as a param to the URI
+
+#### To insert a pet where owner_id becomes the foreign key
+
+Json Input: 
+
+[{
+	"name":"Becky",
+	"owner_id": "",
+	"type": "cat"
+},
+{
+	"name":"Marley",
+	"owner_id": "",
+	"type": "dog"
+},
+{
+	"name":"Becky",
+	"owner_id": "",
+	"type": "cat"
+},
+{
+	"name":"Bruno",
+	"owner_id": "",
+	"type": "dog"
+}]
+
+#### To delete an owner using owner_id
+
+Results in 1 or 0. 1 indicates sucessful deletion where parnoid is true.
