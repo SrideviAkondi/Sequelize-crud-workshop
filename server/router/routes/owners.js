@@ -34,6 +34,16 @@ module.exports = (app, db) => {
       })
   });
 
+// POST multiple owners
+  app.post('/owners/bulk', (req, res) => {
+    const ownerList = req.body.owners;
+    db.owners.bulkCreate(ownerList)
+      .then(newOwners => {
+        res.json(newOwners);
+      })
+  });
+
+
   // PATCH single owner
   app.patch('/owner/:id', (req, res) => {
     const id = req.params.id;
