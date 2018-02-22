@@ -23,7 +23,17 @@ https://www.getpostman.com/ (Links to an external site.)Links to an external sit
  
 ## Getting Started
 
-Open pgAdmin4 and connect to the database server at port number 5432. Later create a database that has been mentioned in the env.js file located in the config of the server folder.
+First fork the repository into your github profile and later clone the project using the command:
+
+#### git clone https://github.com/SrideviAkondi/Sequelize-crud-workshop.git 
+
+Now move to project directory and use the git commands
+
+#### git checkout CRUD
+
+#### git fetch 
+
+You can now see the project structure. Next open pgAdmin4 and connect to the database server at port number 5432. Later create a database that has been mentioned in the env.js file located in the config of the server folder.
 
 ### List of commands after installing npm and postgreSQL
 
