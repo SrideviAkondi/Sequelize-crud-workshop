@@ -25,7 +25,7 @@ https://www.getpostman.com/ (Links to an external site.)Links to an external sit
 
 Open pgAdmin4 and connect to the database server at port number 5432. Later create a database that has been mentioned in the env.js file located in the config of the server folder.
 
-## List of commands after installing npm and postgreSQL
+### List of commands after installing npm and postgreSQL
 
 #### npm install --save sequelize
 
@@ -33,7 +33,7 @@ Open pgAdmin4 and connect to the database server at port number 5432. Later crea
 
 #### npm run dev
 
-## Sample JSON Data
+### Sample JSON Data
 
 #### To insert an owner 
 
@@ -42,6 +42,7 @@ Json Input:
 	"name": "Carol",
 	"role": "admin"
 },
+
 {
 	"name": "Adam",
 	"role": "user"
@@ -71,16 +72,19 @@ Json Input:
 	"owner_id": "",
 	"type": "cat"
 },
+
 {
 	"name":"Marley",
 	"owner_id": "",
 	"type": "dog"
 },
+
 {
 	"name":"Becky",
 	"owner_id": "",
 	"type": "cat"
 },
+
 {
 	"name":"Bruno",
 	"owner_id": "",
