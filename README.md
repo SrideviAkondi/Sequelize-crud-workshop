@@ -17,7 +17,7 @@ In case you have any issues, please follow this tutorial for installation:
 
 http://www.postgresqltutorial.com/install-postgresql/ (Links to an external site.)Links to an external site.
 
-3. Postman 
+3. Postman- API Testing Tool
 
 https://www.getpostman.com/ (Links to an external site.)Links to an external site.
 
