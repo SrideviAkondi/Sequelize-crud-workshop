@@ -8,7 +8,7 @@ A workshop on basic CRUD operations using Sequelize- ORM tool for NodeJs and it 
 
 ##### Installing Git on Windows
 
-Download Git from Git for Windows and install it.
+Download Git from Git for Windows- https://gitforwindows.org/ and install it.
 
 ##### Installing Git on Mac
 
