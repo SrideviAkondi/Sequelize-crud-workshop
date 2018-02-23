@@ -1,8 +1,24 @@
 # Sequelize-crud-workshop
 
-A workshop on basic CRUD operations using Sequelize- ORM tool for NodeJs and it supports the dialects PostgreSQL, MySQL, SQLite and MSSQL. This application uses Node vexrsion 6, Express.js to build API, Sequelize version 3.24.3 and PostgreSQL 6.1.0 version as the dialect.
+A workshop on basic CRUD operations using Sequelize- ORM tool for NodeJs and it supports the dialects PostgreSQL, MySQL, SQLite and MSSQL. This application uses Node vexrsion 5.6.0, Express.js to build API, Sequelize version 3.24.3 and PostgreSQL 6.1.0 version as the dialect.
 
 ## Installation
+
+#### Installing Git – the easy way
+
+##### Installing Git on Windows
+
+Download Git from Git for Windows and install it.
+
+##### Installing Git on Mac
+
+
+Copy & paste the following into the terminal window and hit Return.
+
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew doctor
+
+You will be offered to install the Command Line Developer Tools from Apple. Confirm by clicking Install. After the installation finished, continue installing Homebrew by hitting Return again.
 
 #### NodeJS
 Download from this link: https://nodejs.org/en/download/ (Links to an external site.)Links to an external site.
